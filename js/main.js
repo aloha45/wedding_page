@@ -50,10 +50,8 @@ locationBtn.addEventListener("click", () => {
 giftsBtn.addEventListener("click", () => {
 	reset()
 	text1.innerText = "Please no gifts!" 
-	text2.innerText = "Instead, if you would like, please make a donation to the Animal Care Centers of NYC or the American Society for the Prevention of Cruelty to Animals";
-	container1.innerHTML = "<a href='https://www.nycacc.org/' target='_blank' rel='noopener noreferrer'>ACCNYC</a>";
-	container2.innerHTML =
-		"<a href='https://www.aspca.org/' target='_blank' rel='noopener noreferrer'>ASPCA</a>";
+	text2.innerHTML =
+		"Instead, if you would like, please make a donation to the <a href='https://www.nycacc.org/' target='_blank' rel='noopener noreferrer'>Animal Care Centers of NYC</a>, New York City's largest animal shelter, or <a href='https://www.educategirls.ngo/donate/' target='_blank' rel='noopener noreferrer'>Educate Girls</a>, a non-profit that focusses on mobilising communities for girls’ education in India’s rural and educationally backward areas.";
 });
 
 resetBtn.addEventListener("click", () => {

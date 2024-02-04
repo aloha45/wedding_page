@@ -1,6 +1,6 @@
 @media only screen and (max-width: 850px) {
     .reaction {
-        width: 350px
+        width: 80%
     }
 }
 
@@ -14,8 +14,8 @@
 }
 
 .text-div {
-    margin: 0 auto;
-    width: 60%;
+    margin: 10px auto;
+    width: 80%;
 }
 
 h6 {
