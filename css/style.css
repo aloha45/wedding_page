@@ -4,6 +4,18 @@
     }
 }
 
+.welcome {
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 10px;
+    border-color: purple
+}
+
+.reaction {
+    width: 60%
+}
+
 body {
     background-color: cornflowerblue;
     margin: 0 auto;
@@ -12,8 +24,4 @@ body {
 
 .info {
     font-size: 36px;
-}
-
-h1 {
-    font-size: 50px;
 }
