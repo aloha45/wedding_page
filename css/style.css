@@ -1,0 +1,19 @@
+@media only screen and (max-width: 850px){
+    .reaction {
+        width: 350px
+    }
+}
+
+body {
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 50px;
+}
