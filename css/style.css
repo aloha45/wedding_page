@@ -1,23 +1,34 @@
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px) {
     .reaction {
         width: 350px
     }
 }
 
 .welcome {
-    font-size: 20px;
+    font-size: 24px;
     border-style: solid;
     border-radius: 5px;
     border-width: 10px;
-    border-color: purple
+    border-color: purple;
+    margin: 12px;
+}
+
+.text-div {
+    margin: 0 auto;
+    width: 60%;
+}
+
+h6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .reaction {
-    width: 60%
+    width: 75%
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(250, 207, 127);
     margin: 0 auto;
     text-align: center;
 }
