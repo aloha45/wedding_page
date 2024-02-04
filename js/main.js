@@ -51,7 +51,7 @@ giftsBtn.addEventListener("click", () => {
 	reset()
 	text1.innerText = "Please no gifts!" 
 	text2.innerHTML =
-		"Instead, if you would like, please make a donation to the <a href='https://www.nycacc.org/' target='_blank' rel='noopener noreferrer'>Animal Care Centers of NYC</a>, New York City's largest animal shelter, or <a href='https://www.educategirls.ngo/donate/' target='_blank' rel='noopener noreferrer'>Educate Girls</a>, a non-profit that focusses on mobilising communities for girls’ education in India’s rural and educationally backward areas.";
+		"Instead, if you would like, please make a donation to the <a href='https://www.nycacc.org/' target='_blank' rel='noopener noreferrer'>Animal Care Centers of NYC</a>, New York City's largest animal shelter, or <a href='https://www.educategirls.ngo/donate/' target='_blank' rel='noopener noreferrer'>Educate Girls</a>, a non-profit that focuses on mobilising communities for girls’ education in India’s rural areas.";
 });
 
 resetBtn.addEventListener("click", () => {
