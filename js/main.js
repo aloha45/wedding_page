@@ -1,6 +1,7 @@
 // event listeners
 const submitBtn = document.getElementById("scroll");
 const locationBtn = document.getElementById("location");
+const menuBtn = document.getElementById("menu");
 const giftsBtn = document.getElementById("gifts");
 const resetBtn = document.getElementById("reset");
 const text1 = document.getElementById("text1Div");
@@ -45,6 +46,14 @@ locationBtn.addEventListener("click", () => {
 		'<img class="reaction" src="/images/wedding/king_umberto.jpeg">';
 	text1.innerText = "King Umberto, 1343 Hempstead Turnpike, Elmont, NY 11003";
 	text2.innerText = "July 13, 2024 -- 5pm";
+});
+
+menuBtn.addEventListener("click", () => {
+	reset();
+	img.innerHTML =
+		'<img class="reaction" src="/images/wedding/king_umberto.jpeg">';
+	text1.innerHTML = "Hot Antipasto: <br></br>Mozzarella Caprese ~ Fried Capellini ~ Fried Calamari ~ Baked Clams<br></br>---<br></br>Penne alla Vodka<br></br>---<br></br>Tossed Salad<br></br>---<br></br>Shrimp Monachina<br></br>Pork Chop Capestrano<br></br>Chicken Parmigiana<br></br>Eggplant Parmigiana<br></br>---<br></br>Cake<br></br>*Vegan, Gluten Free options also available";
+	text2.innerHTML = "<br></br>Beverages: Water, Tea, Coffee, Cappucino, Espresso, Beer, Wine, Soda<br></br>**Kids Menu -- Chicken Fingers, French Fries, Pizza, PBJ -- also available";
 });
 
 giftsBtn.addEventListener("click", () => {
