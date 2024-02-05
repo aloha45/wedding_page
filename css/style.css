@@ -1,7 +1,14 @@
-@media only screen and (max-width: 850px) {
-    .reaction {
-        width: 80%
+@media only screen and (max-width: 750px) {
+    img {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        max-height: 400px
     }
+}
+
+img {
+    height: 435px;
 }
 
 .welcome {
@@ -14,17 +21,13 @@
 }
 
 .text-div {
-    margin: 10px auto;
-    width: 80%;
+    margin: 5px auto;
+    width: 70%;
 }
 
 h6 {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.reaction {
-    width: 75%
 }
 
 body {
