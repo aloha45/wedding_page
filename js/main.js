@@ -243,6 +243,7 @@ container2.innerHTML = "";
 img.innerHTML = "";
 
 function reset() {
+		submitBtn.value='Pictures'
 		text1.innerText = "";
 		text2.innerText = ""
 		container1.innerHTML = "";
@@ -265,6 +266,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 submitBtn.addEventListener("click", () => {
 	reset()
+	submitBtn.value = 'More Photos'
 	if (photoNum != 7) {
 		photoNum = photoNum + 1
 		img.innerHTML = '<img src="/images/wedding/' + photoNum + '.jpeg">';
