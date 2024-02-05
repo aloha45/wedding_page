@@ -243,7 +243,7 @@ container2.innerHTML = "";
 img.innerHTML = "";
 
 function reset() {
-		submitBtn.value='Pictures'
+		submitBtn.value='Photos'
 		text1.innerText = "";
 		text2.innerText = ""
 		container1.innerHTML = "";
