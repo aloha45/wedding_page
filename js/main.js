@@ -282,7 +282,8 @@ locationBtn.addEventListener("click", () => {
 	reset()
 	img.innerHTML =
 		'<img src="/images/wedding/king_umberto.jpeg">';
-	text1.innerHTML = "King Umberto<br></br>1343 Hempstead Turnpike, Elmont, NY 11003";
+	text1.innerHTML =
+		"<a href='https://maps.app.goo.gl/CahL3kD2g3zh46jCA'>King Umberto</a><br></br>1343 Hempstead Turnpike, Elmont, NY 11003";
 	text2.innerText = "July 13, 2024 -- 5pm";
 });
 
